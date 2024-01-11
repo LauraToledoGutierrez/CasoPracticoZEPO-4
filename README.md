@@ -23,4 +23,4 @@ Password cracked in 21695135 attempts. The password is mipassword
 
 ## Iniciar
 
-Antes de iniciarla hay que hacer la migracion, 'python3 manage.py migrate'. Para iniciar la aplicación, hay que ejecutar el comando 'python3 manage.py runserver'. Una vez iniciado el programa ya podemos acceder a la URL para realizar el ataque de diccionario, la URL es la siguiente: http://localhost:8000/fuerza_bruta/attack/mipassword/. Dentro de la URL una vez encontrada la contraseña nos aparecera en formato json la información. 
+Antes de iniciarla hay que hacer la migracion, 'python3 manage.py migrate'. Para iniciar la aplicación, hay que ejecutar el comando 'python3 manage.py runserver'. Una vez iniciado el programa ya podemos acceder a la URL para realizar el ataque de diccionario, la URL es la siguiente: http://localhost:8000/brute_force/attack/mipassword/. Dentro de la URL una vez encontrada la contraseña nos aparecera en formato json la información. 

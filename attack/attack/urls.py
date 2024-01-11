@@ -18,5 +18,5 @@ from django.urls import include, path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('fuerza_bruta/', include('bruteforce_attack.urls')),  # Incluir las URLs de la aplicación
+    path('brute_force/', include('bruteforce_attack.urls')),  # Incluir las URLs de la aplicación
 ]
